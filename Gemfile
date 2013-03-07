@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 gemspec
 
+gem 'faye', github: 'Termina1/faye', branch: 'temp'
 gem 'rake'
 gem 'faye-redis'
 gem 'guard'
